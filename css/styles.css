@@ -1,0 +1,12 @@
+.fa-brands{
+    padding: 20px;
+    font-size: 100px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-github-square{
+    background: blue;
+    color: white;
+}
