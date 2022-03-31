@@ -1,12 +1,199 @@
-.fa-brands{
-    padding: 20px;
-    font-size: 100px;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
+/* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Courier+Prime&display=swap');
+a{
+        text-decoration: none;
+        margin: 5px;
+        color: white;
+        border: white 1px solid;
+        border-radius: 5px;
+        padding: 5px;
+    }
+a:hover{
+    background-color: #967F65;
 }
 
-.fa-github-square{
+aside{
+        width: 25%;
+        height: 400px;
+        margin: 70px;
+        float: left;
+    }
+body{
+    font-family: 'Courier Prime', monospace;
+}
+footer{
+        background-color: grey;
+        height: 100px;
+        clear: both;
+    }
+header, h1{
+        font-family: 'Amatic SC', cursive;
+        font-size: 40px;
+        letter-spacing: 5px;
+        padding:5px;
+    }
+img{
+    height: 100%;
+    border: #A9BFD0 2px solid;
+    border-radius: 3px;
+}
+li{
+        margin: 20px; 
+     }
+nav{
+        padding: 5px;
+        height: 40px;
+        text-align: right;
+        position: sticky;
+        top: 0px;
+    }
+section{
+        width: 20%;
+        height: 400px;
+        margin: 70px;
+        background-color: aliceblue;
+        float: left;
+    }
+ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+}
+
+
+/* Classes */
+.aboutcontainer{
+        width: 95%;
+        margin: 30px;
+        text-align: center;
+    }
+.contactdiv{
+        text-align: center;
+        width: 100%;
+        margin: 35px;
+    }
+    
+.footerdiv{
+        width: 50%;
+        float: right;
+        text-align: right;
+        margin: 20px;
+    }
+.formdiv{
+        width: 95%;
+        height: 95%; 
+        margin: 5px;
+        margin-top: 50px;
+     }
+.graphic{
+    width: 450px;
+    border: none;
+}
+.graphicdiv{
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+    width: 60%;
+}
+.headerdiv{
+    width: 20%;
+    text-align: right;
+    display: inline-block;
+}
+     
+.heroimage{
+        height: 250px;
+        width: 95%;
+        text-align: center;
+        margin: 30px;
+        margin-bottom: 15px;
+    }
+.indexcontainer{
+        width: 95%;
+        height: 150px;
+        margin: 30px;
+        text-align: center;
+    }
+
+.infobricks{
+        width: 25%;
+        height: 100%;
+        display: inline-block;
+        background-color: grey;
+    }
+.mainformat{
+        background-color: #6585A0;
+        padding: 5px;
+        /* text-align: right; */
+    }
+.sectiondiv{
+        margin: 24px;
+        height: 40%;
+        width: 80%;
+        background-color: grey;
+        text-align: right;
+    }
+.videodiv{
+        float: left;
+        height: 400px;
+        width: 25%;
+        margin-top: 70px;
+    }
+
+
+
+/* ID's */
+#logo{
+    display: inline-block;
+    height: 100px;
+}
+
+#middleinfobrick{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#spacer{
+    margin-right: 105px;
+}
+
+
+/* Font Awesome Styling */
+.fa-brands{
+    padding: 5px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter{
     background: blue;
     color: white;
 }
+
+
+/* Form Styling */
+
+input[type=text], select, textarea {
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+  }
+input[type=submit]:hover{
+    background-color: aqua;
+}
+
+
